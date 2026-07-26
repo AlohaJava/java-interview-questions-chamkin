@@ -2,7 +2,7 @@
 
 ![Java](https://img.shields.io/badge/Java-17--21-orange)
 ![Spring Boot](https://img.shields.io/badge/Spring%20Boot-3.x-brightgreen)
-![Вопросов в базе](https://img.shields.io/badge/%D0%B2%D0%BE%D0%BF%D1%80%D0%BE%D1%81%D0%BE%D0%B2-296-blue)
+![Вопросов в базе](https://img.shields.io/badge/%D0%B2%D0%BE%D0%BF%D1%80%D0%BE%D1%81%D0%BE%D0%B2-300-blue)
 ![Язык](https://img.shields.io/badge/%D1%8F%D0%B7%D1%8B%D0%BA-%D1%80%D1%83%D1%81%D1%81%D0%BA%D0%B8%D0%B9-lightgrey)
 ![License](https://img.shields.io/badge/license-MIT-green)
 
@@ -21,13 +21,13 @@
 | [jvm-and-memory.md](jvm-and-memory.md) | JVM, Память и Сборщик Мусора (GC) | 16 |
 | [multithreading.md](multithreading.md) | Многопоточность и Concurrency | 30 |
 | [spring-framework.md](spring-framework.md) | Spring Framework и Spring Boot | 28 |
-| [databases-and-sql.md](databases-and-sql.md) | Базы Данных, SQL и Hibernate / JPA | 37 |
+| [databases-and-sql.md](databases-and-sql.md) | Базы Данных, SQL и Hibernate / JPA | 38 |
 | [kafka.md](kafka.md) | Apache Kafka | 17 |
 | [microservices.md](microservices.md) | Микросервисы: архитектура, REST и паттерны | 19 |
 | [system-design-and-patterns.md](system-design-and-patterns.md) | System Design, SOLID и Паттерны проектирования | 24 |
 | [testing.md](testing.md) | Тестирование и Качество Кода | 18 |
 | [livecoding-algorithms.md](livecoding-algorithms.md) | Лайвкодинг и алгоритмы | 23 |
-| [code-review.md](code-review.md) | Код-ревью на собеседовании | 10 |
+| [code-review.md](code-review.md) | Код-ревью на собеседовании | 13 |
 | [behavioral-questions.md](behavioral-questions.md) | Поведенческие вопросы и soft skills | 14 |
 | [dev-tools-and-processes.md](dev-tools-and-processes.md) | Инструменты и процессы разработки | 7 |
 
@@ -229,6 +229,7 @@
 - [6.35. DELETE vs TRUNCATE vs DROP: механика, откат, identity-счётчики](databases-and-sql.md#35-delete-vs-truncate-vs-drop-механика-откат-identity-счётчики)
 - [6.36. Стратегии генерации первичных ключей в JPA: IDENTITY / SEQUENCE / TABLE / UUID](databases-and-sql.md#36-стратегии-генерации-первичных-ключей-в-jpa-identity--sequence--table--uuid)
 - [6.37. persist vs merge vs saveOrUpdate (и getById vs getReference)](databases-and-sql.md#37-persist-vs-merge-vs-saveorupdate-и-getbyid-vs-getreference)
+- [6.38. HikariCP на собеседовании: глубокие вопросы по конфигурации и эксплуатации](databases-and-sql.md#38-hikaricp-на-собеседовании-глубокие-вопросы-по-конфигурации-и-эксплуатации)
 ---
 
 ### 7. Apache Kafka (`kafka.md`)
@@ -364,6 +365,9 @@
 - [12.8. Сниппет: строки и даты](code-review.md#8-сниппет-строки-и-даты)
 - [12.9. Сниппет: Optional и Stream API](code-review.md#9-сниппет-optional-и-stream-api)
 - [12.10. Как проводить код-ревью в команде](code-review.md#10-как-проводить-код-ревью-в-команде)
+- [12.11. Сниппет: внешние вызовы внутри @Transactional](code-review.md#11-сниппет-внешние-вызовы-внутри-transactional)
+- [12.12. Задача: перевод денег между счетами (дедлок)](code-review.md#12-задача-перевод-денег-между-счетами-дедлок)
+- [12.13. Задача: банкомат (ATM)](code-review.md#13-задача-банкомат-atm)
 ---
 
 ### 13. Поведенческие вопросы и soft skills (`behavioral-questions.md`)
@@ -396,7 +400,7 @@
 
 ---
 
-**Всего вопросов в базе: 296**
+**Всего вопросов в базе: 300**
 
 ---
 
