@@ -2,7 +2,7 @@
 
 ![Java](https://img.shields.io/badge/Java-17--21-orange)
 ![Spring Boot](https://img.shields.io/badge/Spring%20Boot-3.x-brightgreen)
-![Вопросов в базе](https://img.shields.io/badge/%D0%B2%D0%BE%D0%BF%D1%80%D0%BE%D1%81%D0%BE%D0%B2-300-blue)
+![Вопросов в базе](https://img.shields.io/badge/%D0%B2%D0%BE%D0%BF%D1%80%D0%BE%D1%81%D0%BE%D0%B2-301-blue)
 ![Язык](https://img.shields.io/badge/%D1%8F%D0%B7%D1%8B%D0%BA-%D1%80%D1%83%D1%81%D1%81%D0%BA%D0%B8%D0%B9-lightgrey)
 ![License](https://img.shields.io/badge/license-MIT-green)
 
@@ -19,7 +19,7 @@
 | [oop-and-core.md](oop-and-core.md) | ООП и Java Core | 33 |
 | [collections.md](collections.md) | Java Collections Framework | 20 |
 | [jvm-and-memory.md](jvm-and-memory.md) | JVM, Память и Сборщик Мусора (GC) | 16 |
-| [multithreading.md](multithreading.md) | Многопоточность и Concurrency | 30 |
+| [multithreading.md](multithreading.md) | Многопоточность и Concurrency | 31 |
 | [spring-framework.md](spring-framework.md) | Spring Framework и Spring Boot | 28 |
 | [databases-and-sql.md](databases-and-sql.md) | Базы Данных, SQL и Hibernate / JPA | 38 |
 | [kafka.md](kafka.md) | Apache Kafka | 17 |
@@ -156,6 +156,7 @@
 - [4.28. Почему многопоточность не всегда ускоряет: закон Амдала, false sharing и @Contended](multithreading.md#28-почему-многопоточность-не-всегда-ускоряет-закон-амдала-false-sharing-и-contended)
 - [4.29. Структурированная конкурентность: StructuredTaskScope и ScopedValue](multithreading.md#29-структурированная-конкурентность-structuredtaskscope-и-scopedvalue)
 - [4.30. Как подобрать размер пула потоков: CPU-bound против IO-bound задач, формула Брайана Гетца](multithreading.md#30-как-подобрать-размер-пула-потоков-cpu-bound-против-io-bound-задач-формула-брайана-гетца)
+- [4.31. parallelStream и ForkJoinPool: зачем параллельные стримы и когда они вредят](multithreading.md#31-parallelstream-и-forkjoinpool-зачем-параллельные-стримы-и-когда-они-вредят)
 ---
 
 ### 5. Spring Framework и Spring Boot (`spring-framework.md`)
@@ -400,7 +401,7 @@
 
 ---
 
-**Всего вопросов в базе: 300**
+**Всего вопросов в базе: 301**
 
 ---
 
